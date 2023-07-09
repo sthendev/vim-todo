@@ -1,8 +1,8 @@
-syntax match TodoWaiting    "\[ \] .\+"
-syntax match TodoLoading    "\[~\] .\+"
-syntax match TodoComplete   "\[x\] .\+"
+syntax match TodoWaiting "\[ \] .\+"
+syntax match TodoLoading "\[\~\] .\+"
+syntax match TodoComplete "\[x\] .\+"
 
-highlight default TodoWaiting   ctermfg=red
-highlight default TodoLoading   ctermfg=yellow
-highlight default TodoComplete  ctermfg=green
+highlight default link TodoWaiting Function
+highlight default link TodoLoading String
+highlight default link TodoComplete Statement
 

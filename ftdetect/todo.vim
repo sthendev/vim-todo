@@ -1,1 +1,1 @@
-autocmd BufRead, BufNewFile *.todo set filetype=todo
+autocmd BufRead,BufNewFile *.todo set filetype=todo
